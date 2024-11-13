@@ -20,8 +20,7 @@ body {
     font-family: 'Poppins', sans-serif;
     color: var(--gray-light);
     font-size: var(--font-size-base);
-    background-color: #FAF5EE;
-    background-image: url("/img/mountain-forest.jpg");
+    background-color: var(--black);
     margin: 0;
 }
 
@@ -347,5 +346,5 @@ img {
 }
 
 .pagination:hover {
-    color: var(--black);
+    color: hsl(0, 0%, 79%);
 }
