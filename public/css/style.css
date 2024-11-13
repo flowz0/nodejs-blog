@@ -219,7 +219,7 @@ img {
 
 .article-list__date {
     font-size: 1rem;
-    color: var(--gray);
+    color: var(--gray-light);
     width: 100px;
     display: inline-block;
     width: 260px;
