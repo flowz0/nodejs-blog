@@ -6,7 +6,7 @@
 <img src="/img/mountain-forest.jpg" alt="person looking out through window" class="hero-image" width="981" height="528">
 
 <section class="articles">
-    <h2 class="articles__heading">Latest Posts</h2>
+    <h2 id="#posts" class="articles__heading">Latest Posts</h2>
 
     <% data.forEach(post => { %>
         <ul class="article-ul">
@@ -19,6 +19,11 @@
         </ul>
     <% }) %>
 
-    <a href="#" class="pagination">View Older Posts &longrightarrow;</a>
+    <% if (nextPage !== null) { %>
+        <div class="older-posts">
+            <a href="/?page=<%= nextPage %>" class="pagination">View Older Posts &longrightarrow;</a>
+            <p><%= currentPage %></p>
+        </div>
+    <% } %>
 
 </section>

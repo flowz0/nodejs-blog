@@ -232,6 +232,12 @@ img {
     margin: 18px 0;
 }
 
+.older-posts {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
 @media only screen and (min-width: 768px) {
     .article-ul li a {
         flex-direction: row;
