@@ -1,5 +1,7 @@
 [build]
-  command = "npm install"
+  base = "/"
+  publish = "public"
+  command = "npm run build"
 
 [build.environment]
   NODE_VERSION = "22.11.0" # Adjust this to match your Node.js version
