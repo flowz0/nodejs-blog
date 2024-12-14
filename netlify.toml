@@ -1,5 +1,5 @@
 [build]
-  command = "npm start"
+  command = "npm install"
 
 [build.environment]
   NODE_VERSION = "22.11.0" # Adjust this to match your Node.js version
